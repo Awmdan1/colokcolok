@@ -1,4 +1,7 @@
-# config.py
-EMAIL = "email_anda@gmail.com"
-PASSWORD = "password_anda"
-PROXY = "http://your_proxy_here:port"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+EMAIL = os.getenv("EMAIL")
+PASSWORD = os.getenv("PASSWORD")
+PROXY = os.getenv("PROXY")
