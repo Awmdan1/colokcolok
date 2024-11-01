@@ -9,6 +9,7 @@
 3. Jalankan bot: `python bot_grass.py`
 
 ## File Utama
+`bash start.sh`
 - `python.py`: Script utama untuk menjalankan bot.
 - `config.py`: File konfigurasi untuk detail login dan proxy.
 ## buat file .env
