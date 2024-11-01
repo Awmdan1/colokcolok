@@ -11,3 +11,8 @@ Bot ini otomatis menjalankan aktivitas menonton video di YouTube untuk meningkat
 ## File Utama
 - `bot_grass.py`: Script utama untuk menjalankan bot.
 - `config.py`: File konfigurasi untuk detail login dan proxy.
+## buat file .env
+`EMAIL=email_anda@gmail.com`
+`PASSWORD=password_anda`
+`PROXY=http://your_proxy_here:port`
+
